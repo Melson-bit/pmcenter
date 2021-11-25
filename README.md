@@ -44,3 +44,39 @@
 
 ![MSRCR.png](https://i.loli.net/2021/11/25/kwWbqpJImjGi6YQ.png)
 
+```bash
+sudo apt-get install git
+```
+```c
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+
+int main()
+{
+	printf("测试\n");
+	return 0;
+}
+```
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	cout<<"测试数据"<<endl;
+}
+```
+
+```python
+import os
+
+def self_main():
+	file_list = os.listdir(backup.dir)
+	return file_list
+```
+
+```java
+	一段测试代码
+```
